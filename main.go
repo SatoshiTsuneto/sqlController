@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+// テストコード
 func main() {
 	// データの取得（GET）
 	data := goMySql.GetData()
@@ -27,7 +28,7 @@ func main() {
 	fmt.Println(data)
 	time.Sleep(1 * time.Second)
 
-	// データの削除
+	// データの削除（DELETE）
 	goMySql.DeleteData(1)
 	data = goMySql.GetData()
 	fmt.Println(data)
