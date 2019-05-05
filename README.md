@@ -24,7 +24,7 @@
 　　次に、コンテナに入りデータベースおよびテーブルの作成をします。以下のコマンドを順に実行してください。   
 ```
 $ docker exec -it test-mysql bash
-$ mysql -u root -p secret
+$ mysql -u root -p # Enterを押したらsecretと入力
 $ create database user_info;
 $ create table posts(id int, name varchar(255), age int);
 ```
