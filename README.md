@@ -26,6 +26,7 @@
 $ docker exec -it test-mysql bash
 $ mysql -u root -p # Enterを押したらsecretと入力
 $ create database user_info;
+$ use user_info;
 $ create table posts(id int, name varchar(255), age int);
 ```
 
